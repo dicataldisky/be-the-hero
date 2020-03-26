@@ -20,6 +20,7 @@ module.exports = {
       ]);
 
     res.header("X-Total-Count", count["count(*)"]);
+    console.log(incidents);
     return res.json(incidents);
   },
 
